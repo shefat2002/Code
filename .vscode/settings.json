@@ -40,7 +40,8 @@
     "cstdlib": "cpp",
     "cmath": "cpp",
     "*.tcc": "cpp",
-    "istream": "cpp"
+    "istream": "cpp",
+    "complex": "cpp"
   },
   "git.autofetch": true
 }
