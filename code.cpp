@@ -28,8 +28,10 @@ void file()
     #endif
 }
 
+
 void solve()
 {
+    
     
 }
 
@@ -39,7 +41,7 @@ int main()
     file();
     fast;
     int n; 
-    solve();
-    // cin >> n; while(n--){solve();}
+    // solve();
+    cin >> n; while(n--){solve();}
     // cin >> n; while(n--){case;solve();nl;} // Case 
 }

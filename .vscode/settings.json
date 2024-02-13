@@ -29,6 +29,7 @@
     "**/.vscode/**"
   ],
   "files.associations": {
+    "*.embeddedhtml": "html",
     "iostream": "cpp",
     "ostream": "cpp",
     "vector": "cpp",
@@ -41,7 +42,14 @@
     "cmath": "cpp",
     "*.tcc": "cpp",
     "istream": "cpp",
-    "complex": "cpp"
+    "complex": "cpp",
+    "tuple": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "any": "cpp",
+    "system_error": "cpp"
   },
   "git.autofetch": true
 }
