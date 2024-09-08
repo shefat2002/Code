@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
 using namespace std;
+using namespace __gnu_pbds;
 
 #define ll                  long long
 #define ld                  long double
@@ -16,6 +18,9 @@ using namespace std;
 #define srt(a)              sort(a.begin(), a.end());
 #define dsrt(a)             sort(a.rbegin(), a.rend());
 
+template<class T> using indexed_set = tree<T,null_type,less<T>,rb_tree_tag,tree_order_statistics_node_update>;
+
+
 ll gcd(ll a, ll b){ return (__gcd(a,b));}
 ll lcm(ll a, ll b){ return (abs(a*b)/gcd(a,b));}
 
@@ -27,7 +32,6 @@ void file()
     freopen("out.txt" , "w", stdout);
     #endif
 }
-
 
 void solve()
 {
@@ -41,7 +45,7 @@ int main()
     file();
     fast;
     int n; 
-    // solve();
-    cin >> n; while(n--){solve();}
-    // cin >> n; while(n--){case;solve();nl;} // Case 
+    solve();
+    // cin >> n; while(n--){solve();}
+    // cin >> n; while(n--){case;solve();} // Case 
 }

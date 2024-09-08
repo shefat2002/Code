@@ -69,10 +69,25 @@ void file()
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 
+bool cmp(pair<string,int>&a,pair<string,int>&b)
+{
+    return a.first > b.first;
+}
 
 void solve()
 {
-    
+    int n;cin >> n;
+    vector<pair<string,int>> v;
+    for(int i = 0 ; i < n;i++){
+        string s;
+        int a;
+        cin >> s >> a;
+        v.push_back({s,a});
+    }
+    sort(v.begin(),v.end(),cmp);
+    for(auto i:v){
+        cout << i.first << ' '<< i.second;nl;
+    }
 }
 
 int main()
