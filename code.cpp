@@ -18,7 +18,7 @@ using namespace __gnu_pbds;
 #define srt(a)              sort(a.begin(), a.end());
 #define dsrt(a)             sort(a.rbegin(), a.rend());
 
-template<class T> using indexed_set = tree<T,null_type,less<T>,rb_tree_tag,tree_order_statistics_node_update>;
+template<class T> using pbds = tree<T,null_type,less<T>,rb_tree_tag,tree_order_statistics_node_update>;
 
 
 ll gcd(ll a, ll b){ return (__gcd(a,b));}
@@ -33,9 +33,9 @@ void file()
     #endif
 }
 
+
 void solve()
 {
-    
     
 }
 
