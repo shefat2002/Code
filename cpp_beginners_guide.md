@@ -2,9 +2,9 @@
 
 *A comprehensive reference guide for competitive programming beginners*
 
-**Author: Md Shefat Al Mahmud (GitHub:**[** shefat2002**](https://github.com/shefat2002)**)**
+**Author: Md Shefat Al Mahmud (GitHub:**[C++ Beginner's Guide](https://github.com/shefat2002/Code/blob/main/cpp_beginners_guide.md)**)**
 
-**Version:** 1.0
+**Version:** 1.1
 
 ---
 
